@@ -68,6 +68,8 @@ func main(){
 		return
 	}
 
+	println("listen: 8888")
+
 	for  {
 		c, err := l.Accept()
 		if err != nil {
